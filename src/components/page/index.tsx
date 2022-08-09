@@ -11,9 +11,11 @@ const Page = ({ heading, subHeading, inputData, ctaName, chooserData, icon, hand
             <h2>{heading}</h2>
             <p>{subHeading}</p>
         </article>
-        <div className="optionWrapper">
-            {chooserData?.map((chooser, index) => <OptionComponent key={String(index)} {...chooser} activeCard={activeCard} setActiveCard={setActiveCard} index={index} /> )}
-        </div>
+        {chooserData && (
+            <div className="optionWrapper">
+                {chooserData?.map((chooser, index) => <OptionComponent key={String(index)} {...chooser} activeCard={activeCard} setActiveCard={setActiveCard} index={index} /> )}
+            </div>
+        )}
         <form onSubmit={handleCtaClick}>
             {inputData?.map((inputField, index) => <TextField key={String(index)} {...inputField} /> )}
             <input className="cta" type="submit" value={ctaName}></input>

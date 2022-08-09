@@ -48,8 +48,8 @@ export const pageData: IPageData[] = [
             },
             {
                 icon: team,
-                heading:"For myself",
-                subHeading: "Write better. Think more clearly. Stay Organized."
+                heading:"With my team",
+                subHeading: "Wikis, docs, tasks & projects, all in one place."
             },
         ]
     },

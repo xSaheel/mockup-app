@@ -31,7 +31,7 @@
 }
 
 .connector {
-  width: 3rem;
+  width: 3.5rem;
   height: 1.5px;
   background-color: var(--text-color-light);
 }
@@ -43,8 +43,8 @@
 }
 
 .step {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
