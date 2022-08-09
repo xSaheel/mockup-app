@@ -33,3 +33,8 @@ export interface IActivePage {
     index: number;
     totalPages: number; 
 }
+
+export interface IFormDetails { 
+    label: string;
+    value: string;
+}
