@@ -104,3 +104,12 @@
 .lightText {
     color: var(--text-color-light);
 }
+
+@media (max-width: 450px) {
+    .textfield {
+        width: 100%;
+    }
+    .cta {
+        width: 100%;
+    }
+}
